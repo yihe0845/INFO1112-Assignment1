@@ -3,7 +3,7 @@
 #Test 1: No Argument
 echo "Test1: No Argument"
 
-output=$(bash ../assembler.sh)
+output=$(bash assembler.sh)
 exitCode=$?
 
 if [[ "$output" != "usage: no argument is provided" || "$exitCode" != 1 ]]
